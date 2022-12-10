@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-export default function ItemCount(this.props.first){
+export default function ItemCount(props){
     const [count, setCount]=useState(1);
 
     function handleSuma(){
