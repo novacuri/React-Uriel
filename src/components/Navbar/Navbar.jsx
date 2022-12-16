@@ -13,18 +13,18 @@ export const Navbar = () => {
 			{/* Secciones de la navbar */}
 			<ul className='navbar--ul'>
 				<li className='navbar--ul--li'>
-					<Link to='/category/keyboard' className='navbar--ul--li--a'>
-						Keyboards
+					<Link to='/category/MTB' className='navbar--ul--li--a'>
+						MTB
 					</Link>
 				</li>
 				<li className='navbar--ul--li'>
-					<Link to='/category/mouse' className='navbar--ul--li--a'>
-						Mouses
+					<Link to='/category/Ruta' className='navbar--ul--li--a'>
+						Ruta
 					</Link>
 				</li>
 				<li className='navbar--ul--li'>
-					<Link to='/category/pad' className='navbar--ul--li--a'>
-						Pads
+					<Link to='/category/Triatlon' className='navbar--ul--li--a'>
+						Triatlon
 					</Link>
 				</li>
 			</ul>

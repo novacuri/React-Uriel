@@ -7,8 +7,8 @@
 }
 
 .card {
-	background: #191c29;
-	width: 300px;
+	background: #074010;
+	width: 400px;
 	height: 550px;
 	margin: 10px;
 	padding: 10px 3px;
@@ -22,7 +22,7 @@
 	justify-content: space-between;
 	align-items: center;
 	font-size: 1.5em;
-	color: white;
+	color: rgb(107, 236, 100);
 	cursor: default;
 	font-family: cursive;
 }
@@ -34,9 +34,9 @@
 	border-radius: 8px;
 	background-image: linear-gradient(
 		var(--rotate),
-		#5ddcff,
-		#3c67e3 43%,
-		#4e00c2
+		#25f252,
+		#1b981f 43%,
+		#05571b
 	);
 	position: absolute;
 	z-index: -1;
