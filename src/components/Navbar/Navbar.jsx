@@ -5,12 +5,12 @@ import "./navbar.css";
 export const Navbar = () => {
 	return (
 		<nav className='container--navbar'>
-			{/* LOGO */}
+			{}
 			<Link to='/' className='navbar--logo'>
 				🪐
 			</Link>
 
-			{/* Secciones de la navbar */}
+			{}
 			<ul className='navbar--ul'>
 				<li className='navbar--ul--li'>
 					<Link to='/category/MTB' className='navbar--ul--li--a'>
@@ -29,7 +29,7 @@ export const Navbar = () => {
 				</li>
 			</ul>
 
-			{/* ICON CART + Cantidad */}
+			{}
 			<CartWidget />
 		</nav>
 	);
