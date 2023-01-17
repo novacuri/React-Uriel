@@ -3,9 +3,19 @@ import "./itemCount.css";
 
 
 export const ItemCount = ({ stock }) => {
+<<<<<<< HEAD
 	
 	const [initial, setInitial] = useState(1);
 	const [errorStock, setErrorStock] = useState(false);
+=======
+
+	const [initial, setInitial] = useState(1);
+
+
+	const [errorStock, setErrorStock] = useState(false);
+
+
+>>>>>>> 2e4e3ab411351c322e1ca47c7b611531074e8f4a
 	const handleClick = (value) => {
 		if (initial + value > 0 && initial + value <= stock) {
 			setInitial(initial + value);
