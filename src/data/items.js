@@ -3,7 +3,7 @@ export const products = [
 		id: 1,
 		stock: 10,
 		title: "Bicicleta MTB gama baja",
-		img: "../img/mtb1.JPG",
+		img: "mtb1",
 		description:
 			"La mejor Bicicleta para tus comienzos",
 		price: 100,
@@ -13,7 +13,7 @@ export const products = [
 		id: 2,
 		stock: 10,
 		title: "Bicicleta MTB gama media",
-		img: "../img/mtb2.JPG",
+		img: "mtb2",
 		description:
 			"Una bicicleta a la medida de tus necesidades",
 		price: 200,
@@ -23,7 +23,7 @@ export const products = [
 		id: 3,
 		stock: 10,
 		title: "Bicicleta MTB gama alta",
-		img: "../img/mtb3.JPG",
+		img: "mtb3",
 		description:
 			"Tope de gama usada en Torneos Mundiales...!!!!",
 		price: 300,
@@ -33,7 +33,7 @@ export const products = [
 		id: 4,
 		stock: 10,
 		title: "Bicicleta Ruta gama baja",
-		img: "../img/ruta1.JPG",
+		img: "ruta1",
 		description:
 		"La mejor Bicicleta para tus comienzos",
 		price: 100,
@@ -43,7 +43,7 @@ export const products = [
 		id: 5,
 		stock: 10,
 		title: "Bicicleta Ruta gama media",
-		img: "../img/ruta2.JPG",
+		img: "ruta2",
 		description:
 			"Una bicicleta a la medida de tus necesidades",
 		price: 200,
@@ -53,7 +53,7 @@ export const products = [
 		id: 6,
 		stock: 10,
 		title: "Bicicleta Ruta gama alta",
-		img: "../img/ruta3.JPG",
+		img: "ruta3",
 		description:
 			"Tope de gama usada en Torneos Mundiales...!!!!",
 		price: 300,
@@ -63,7 +63,7 @@ export const products = [
 		id: 7,
 		stock: 10,
 		title: "Bicicleta Triatlon gama baja",
-		img: "../img/tria1.JPG",
+		img: "tria1",
 		description:
 		"La mejor Bicicleta para tus comienzos",
 		price: 100,
@@ -73,7 +73,7 @@ export const products = [
 		id: 8,
 		stock: 10,
 		title: "Bicicleta Triatlon gama media",
-		img: "../img/tria2.JPG",
+		img: "tria2",
 		description:
 			"Una bicicleta a la medida de tus necesidades",
 		price: 200,
@@ -83,7 +83,7 @@ export const products = [
 		id: 9,
 		stock: 10,
 		title: "Bicicleta Triatlon gama alta",
-		img: "../img/tria3.JPG",
+		img: "tria3",
 		description:
 			"Tope de gama usada en Torneos Mundiales...!!!!",
 		price: 300,

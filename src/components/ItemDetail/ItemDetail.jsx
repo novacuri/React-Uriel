@@ -7,7 +7,7 @@ export const ItemDetail = ({ itemFiltered }) => {
 			<h3 className='itemDetail--title'>{itemFiltered.title}</h3>
 			<img
 				className='itemDetail--img'
-				src={itemFiltered.img}
+				src={require("../../img/" + `${itemFiltered.img}` + ".JPG")}
 				alt={itemFiltered.title}
 			/>
 			<div className='itemDetail--price'>
