@@ -1,36 +1,46 @@
-import { Link } from "react-router-dom";
-import { CartWidget } from "../CartWidget/CartWidget";
+import React from "react";
+import { NavLink } from "react-router-dom";
+import CartWidget from "./CartWidget";
 import "./navbar.css";
 
-export const Navbar = () => {
-	return (
-		<nav className='container--navbar'>
-			{}
-			<Link to='/' className='navbar--logo'>
-				🪐
-			</Link>
+function Navbar() {
+  let activeStyle = {
+    color: "black",
+    fontWeight: "bolder",
+  };
 
-			{}
-			<ul className='navbar--ul'>
-				<li className='navbar--ul--li'>
-					<Link to='/category/MTB' className='navbar--ul--li--a'>
-						MTB
-					</Link>
-				</li>
-				<li className='navbar--ul--li'>
-					<Link to='/category/Ruta' className='navbar--ul--li--a'>
-						Ruta
-					</Link>
-				</li>
-				<li className='navbar--ul--li'>
-					<Link to='/category/Triatlon' className='navbar--ul--li--a'>
-						Triatlon
-					</Link>
-				</li>
-			</ul>
+  return (
+    <nav className="nav-menu">
+      <NavLink
+        style={({ isActive }) => (isActive ? activeStyle : undefined)}
+        to="/"
+      >
+        Inicio
+      </NavLink>
+      <NavLink
+        style={({ isActive }) => (isActive ? activeStyle : undefined)}
+        to="/category/MTB"
+      >
+        MTB
+      </NavLink>
+      <NavLink
+        style={({ isActive }) => (isActive ? activeStyle : undefined)}
+        to="/category/Ruta"
+      >
+        Ruta
+      </NavLink>
+      <NavLink
+        style={({ isActive }) => (isActive ? activeStyle : undefined)}
+        to="/category/Triatlon"
+      >
+        Triatlon
+      </NavLink>
+      <NavLink to="/cart">
+      <CartWidget />
+      </NavLink>
+      
+    </nav>
+  );
+}
 
-			{}
-			<CartWidget />
-		</nav>
-	);
-};
+export default Navbar;
