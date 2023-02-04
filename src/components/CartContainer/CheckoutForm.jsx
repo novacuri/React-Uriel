@@ -29,7 +29,7 @@ function CheckoutForm({ onCheckout }) {
 
   return (
     <div>
-      <h1>Genera tu orden de compra</h1>
+      <h1>Genera tu orden de compra...!</h1>
       <form>
         <InputForm
           value={buyerData.name}

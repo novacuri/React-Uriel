@@ -25,7 +25,6 @@ function CartContainer() {
     const order = {
       buyer: buyerData,
       items: cart,
-      /* Calcular el total desde context */
       total: 999,
       date: new Date(),
     };
@@ -38,15 +37,15 @@ function CartContainer() {
   if (order)
     return (
       <div>
-        <h1>Gracias!</h1>
-        <p>Se generó la orden correctamente✅</p>
+        <h1>Muchas Gracias</h1>
+        <p>La orden se generó correctamente✅</p>
         <small>Tu id de compra: {order}</small>
       </div>
     );
 
   return (
     <>
-      <h1>Tu Carrito</h1>
+      <h1>Carrito</h1>
 
       <table className="cartList">
         <thead className="cartList_head">

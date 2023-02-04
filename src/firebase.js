@@ -1,8 +1,8 @@
-// Import the functions you need from the SDKs you need
+
 import { initializeApp } from "firebase/app";
 import {getFirestore, doc, getDoc} from "firebase/firestore"
 
-// Your web app's Firebase configuration
+
 const firebaseConfig = {
   apiKey: "AIzaSyCrg0qCrh6nn0xgFw9I8ROYzspUnmJfyxg",
   authDomain: "uriel-entrega-final.firebaseapp.com",
@@ -12,7 +12,7 @@ const firebaseConfig = {
   appId: "1:315018925532:web:23e2d66c7940e0582beb19"
 };
 
-// Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 const DB = getFirestore(app)
 function getDocument (){

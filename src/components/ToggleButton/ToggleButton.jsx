@@ -7,7 +7,7 @@ function ToggleButton(props) {
     evt.preventDefault();
     setIsActive(!isActive);
   }
-  // npm classname
+  
   let classNameButton = isActive ? "card-favicon favorite" : "card-favicon";
 
   return (

@@ -22,7 +22,7 @@ function ItemDetailContainer() {
     getData();
   }, [itemID]);
 
-  // 1. Rendering con condicional ternario
+
   return (
     <>
       {isLoading ? <Loader color="green" /> : <ItemDetail product={product} />}

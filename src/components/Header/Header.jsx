@@ -6,8 +6,7 @@ function Header() {
     return `Bienvenida comisión ${comision}`;
   }
 
-  //css in js
-  const stylesH1 = {
+const stylesH1 = {
     backgroundColor: "pink",
     padding: "10px",
     margin: "0 auto",

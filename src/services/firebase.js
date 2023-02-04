@@ -27,13 +27,13 @@ const app = initializeApp(firebaseConfig);
 const DB = getFirestore(app);
 
 export async function getSingleItem(id) {
-  //1. referencia
+ 
   let docRef = doc(DB, "products", id);
 
-  //2. obtenemos la respuesta async de getDoc
+  
   let docSnapshot = await getDoc(docRef);
 
-  //3. retornamos la respuesta.data()
+  
   let item = docSnapshot.data();
   item.id = docSnapshot.id;
 
@@ -46,11 +46,7 @@ export async function getItems() {
 
   let docsArray = docsSnapshot.docs;
 
-  /* let dataDocs = docsArray.map((doc) => {
-    let item = doc.data();
-    item.id = doc.id;
-    return item;
-  }); */
+
 
   let dataDocs = docsArray.map((doc) => {
     return { ...doc.data(), id: doc.id };

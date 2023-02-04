@@ -6,9 +6,7 @@ import { Link } from "react-router-dom";
 function Item(props) {
   let urlDetail = `/item/${props.id}`;
 
-  /* let stylePrice = {
-    color: props.discount ? "green" : "black",
-  }; */
+
 
   let classNamePrice = `item-price ${props.discount && "offerTag"}`;
   let classNameItem = `card ${props.newProduct ? "item-new" : ""}`;
@@ -24,7 +22,7 @@ function Item(props) {
           <h2>{props.title}</h2>
           <h4 className={classNamePrice}>
             $ {props.price}
-            {/* { props.discount? <small>{props.discount}% off</small> : <></> } */}
+            {}
             <br />
             {props.discount && <small>{props.discount}% off</small>}
           </h4>

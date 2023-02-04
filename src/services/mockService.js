@@ -1,13 +1,7 @@
-/* -------------- BACK-END -------------- */
+
 import products from "../data/products";
 
-/* function getItems() {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(products);
-    }, 500);
-  });
-} */
+
 
 export function getItemsCategory(categoryID) {
   return new Promise((resolve, reject) => {
@@ -19,15 +13,4 @@ export function getItemsCategory(categoryID) {
     else reject("No hay productos para esta categoría.");
   });
 }
-/* 
-export function getSingleItem(itemID) {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      let itemFound = products.find(
-        (itemInArray) => itemInArray.id === parseInt(itemID)
-      );
-      if (itemFound) resolve(itemFound);
-      else reject("Item no encontrado");
-    }, 500);
-  });
-} */
+

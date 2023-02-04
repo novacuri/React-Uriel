@@ -26,7 +26,7 @@ function ItemListContainer() {
     }
   }, [categoryID]);
 
-  // 3. Return con if temprano - early "return"
+ 
   if (isLoading) {
     return <Loader />;
   }
